@@ -1,0 +1,19 @@
+# compiled object files
+[Dd]ebug/
+[Rr]elease/
+x86/
+x64/
+*.aps
+*.user
+# Visual Studio 2010 -- 2013
+*.sdf
+*.suo
+ipch/
+# Visual Studio 2015 or later
+*.VC.db
+*.VC.opendb
+.vs/
+# C#
+bin/
+obj/
+# Optional files
