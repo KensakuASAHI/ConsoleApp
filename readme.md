@@ -7,10 +7,10 @@ In this solution, you do NOT need to change settings "PlatformToolset" and "Wind
 
 ## Description
 
-This slution file are provided for beginners at programming.
+This slution file is provided for beginners at programming.
 When they use different version of Visual Studio at school or at home, settings of corresponding toolset are required.
-In this solution, "PlatformToolset" and "WindowsTargetPlatformVersion" macros (environment variables) are setted automatically from Registry and "VisualStudioVersion" macro. 
-Therefor, they do NOT need to change these settings.
+In this solution, "PlatformToolset" and "WindowsTargetPlatformVersion" macros (environment variables) are set automatically from Windows Registry and "VisualStudioVersion" macro. 
+Therefore, they do NOT need to change these settings.
 
 
 ## Requirement
@@ -26,10 +26,10 @@ Open `ConsoleApp.sln`
 
 ## Extra
 
-For convenience, Makefile and Xcode project are included.
+For convenience, Makefile is included for Unix like OS environment (e.g. Linux and/or macOS) users.
 
 
-## Licence
+## License
 
 These files are licensed under CC0.
 
