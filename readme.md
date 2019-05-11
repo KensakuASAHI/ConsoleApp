@@ -1,14 +1,14 @@
 ConsoleApp
 ==========
 
-This is solution (project) file of Win32 Console Application for multiple version of Visual Studio.
-This solution is compatible with Visual Studio 2010, 2012, 2013, 2015 and 2017.
+This is a solution (project) file of Win32 Console Application for multiple version of Visual Studio.
+This solution is compatible with Visual Studio 2010, 2012, 2013, 2015, 2017 and 2019.
 In this solution, you do NOT need to change settings "PlatformToolset" and "WindowsTargetPlatformVersion".
 
 ## Description
 
-This slution file is provided for beginners at programming.
-When they use different version of Visual Studio at school or at home, settings of corresponding toolset are required.
+This solution file is provided for beginners at programming.
+When they use a different version of Visual Studio at school or at home, settings of the corresponding toolset are required.
 In this solution, "PlatformToolset" and "WindowsTargetPlatformVersion" macros (environment variables) are set automatically from Windows Registry and "VisualStudioVersion" macro. 
 Therefore, they do NOT need to change these settings.
 
@@ -16,7 +16,7 @@ Therefore, they do NOT need to change these settings.
 ## Requirement
 
 Visual Studio 2010 or later.
-If you use Visual Studio 2015 or later, you must install Desktop application development tool with C++ (Windows 10 SDK).
+If you use Visual Studio 2015 or later, you must install the Desktop application development tool with C++ (Windows 10 SDK).
 
 
 ## Usage
