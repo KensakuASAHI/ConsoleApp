@@ -1,28 +1,26 @@
 # Settings program and objects 
-PROGRAM = ConsoleApp
-OBJS = ConsoleApp.o
+SUFFIX = .c
 
 # Redefine macros
 CC = gcc
 CFLAGS = -Wall -g -O0
 
+SOURCES = $(wildcard *$(SUFFIX))
+OBJECTS = $(notdir $(SOURCES:$(SUFFIX)=.o))
+TARGETS = $(notdir $(basename $(SOURCES)))
+RMTARGETS = $(TARGETS)
+
 ifeq ($(OS),Windows_NT)
 # for Windows
 	CFLAGS += --exec-charset=cp932
+	RMTARGETS = $(notdir $(SOURCES:$(SUFFIX)=.exe))
 endif
 
-# Define extentions for suffix rule
-.SUFFIXES: .c .o
-
-# Primary target
-$(PROGRAM): $(OBJS)
-	$(CC) -o $(PROGRAM) $^
-
-# suffix rule
-.c.o:
-	$(CC) $(CFLAGS) -c $<
+# make all target
+.PHONY: all
+all: $(TARGETS)
 
 # clean target
 .PHONY: clean
 clean:
-	$(RM) $(PROGRAM) $(OBJS)
+	$(RM) $(RMTARGETS) $(OBJECTS)
