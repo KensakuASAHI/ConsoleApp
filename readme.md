@@ -1,14 +1,14 @@
 ConsoleApp
 ==========
 
-This is a solution (project) file of Win32 Console Application for multiple version of Visual Studio.
-This solution is compatible with Visual Studio 2010, 2012, 2013, 2015, 2017 and 2019.
+This is a solution (project) file of the Win32 Console Application for multiple versions of Visual Studio.
+This solution is compatible with Visual Studio 2010, 2012, 2013, 2015, 2017, 2019, and 2022.
 In this solution, you do NOT need to change settings "PlatformToolset" and "WindowsTargetPlatformVersion".
 
 ## Description
 
 This solution file is provided for beginners at programming.
-When they use a different version of Visual Studio at school or at home, settings of the corresponding toolset are required.
+When they use a different version of Visual Studio at school or home, settings of the corresponding toolset are required.
 In this solution, "PlatformToolset" and "WindowsTargetPlatformVersion" macros (environment variables) are set automatically from Windows Registry and "VisualStudioVersion" macro. 
 Therefore, they do NOT need to change these settings.
 
@@ -26,7 +26,7 @@ Open `ConsoleApp.sln`
 
 ## Extra
 
-For convenience, Makefile is included for Unix like OS environment (e.g. Linux and/or macOS) users.
+For convenience, Makefile is included for Unix-like OS environment (e.g. Linux and/or macOS) users.
 
 
 ## License
