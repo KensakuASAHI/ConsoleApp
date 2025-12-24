@@ -2,7 +2,7 @@ ConsoleApp
 ==========
 
 This is a solution (project) file of the Win32 Console Application for multiple versions of Visual Studio.
-This solution is compatible with Visual Studio 2010, 2012, 2013, 2015, 2017, 2019, and 2022.
+This solution is compatible with Visual Studio 2010, 2012, 2013, 2015, 2017, 2019, 2022 and 2026.
 In this solution, you do NOT need to change settings "PlatformToolset" and "WindowsTargetPlatformVersion".
 
 ## Description
